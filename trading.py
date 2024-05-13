@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-pickle_in = open(r"C:\Users\Pratik\Downloads\model (1).pkl", 'rb')
+pickle_in = open(r"model (1).pkl", 'rb')
 predictor = pickle.load(pickle_in)
 
 # Define a function to predict wine quality
