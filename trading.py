@@ -1,7 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
 import pickle
 
 pickle_in = open(r"C:\Users\Pratik\Downloads\model (1).pkl", 'rb')
