@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-
+import scikit-learn
 pickle_in = open(r"model (1).pkl", 'rb')
 predictor = pickle.load(pickle_in)
 
