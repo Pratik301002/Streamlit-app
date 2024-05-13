@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-pip install scikit-learn
 from sklearn.svm import SVR
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import GridSearchCV, train_test_split
