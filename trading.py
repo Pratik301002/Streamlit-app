@@ -1,6 +1,11 @@
 import streamlit as st
 import pickle
-
+import numpy as np
+import pandas as pd
+from sklearn.svm import SVR
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import GridSearchCV, train_test_split
+from sklearn.metrics import mean_squared_error
 pickle_in = open(r"model (1).pkl", 'rb')
 predictor = pickle.load(pickle_in)
 
